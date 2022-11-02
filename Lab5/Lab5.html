@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Lab5">
+	<meta name="keywords" content="HTML">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Педенко Д. Д. група ІО-92</title>
+</head>
+<body>
+<div class="container">
+	<form action="#" method="post">
+
+		<label id="forma">
+			<span>Форма по завданню:</span>
+			<input id="full name" type="text" name="fullName" placeholder="Ivanov І.І." onchange="FormFullName(this.id)">
+			<p id="exceptionFullName"></p>
+			<input id="variant" type="text" name="variant" placeholder="10" onchange="FormVariant()">
+			<p id="exceptionVariant"></p>
+			<input id="study group" type="text" name="studyGroup" placeholder="IO-01" onchange="FormStudyGroup()">
+			<p id="exceptionStudyGroup"></p>
+			<input id="phone" type="text" name="phone" placeholder="(380)-999-99-99" onchange="FormPhone()">
+			<p id="exceptionPhone"></p>
+			<input id="idCard" type="text" name="idCard" placeholder="SV №111111" onchange="FormIdCard()">
+			<p id="exceptionIdCard"></p>
+			<input id="submit" type="button" name="submit" value="Submit" onclick="SubmitForm(this.form)">
+		</label>
+
+	</form>
+	<div class="result">
+		<span>Результат запиту:</span>
+		<p id="resultFullName"></p>
+		<p id="resultVariant"></p>
+		<p id="resultStudyGroup"></p>
+		<p id="resultPhone"></p>
+		<p id="resultIdCard"></p>
+	</div>
+</div>
+<div>
+	<label>
+		<input type="color" id="selectedColor">
+	</label>
+	<table>
+		<tr id="firstRow">
+			<td id="firstCell">1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+			<td>11</td>
+			<td>12</td>
+		</tr>
+		<tr>
+			<td>13</td>
+			<td>14</td>
+			<td>15</td>
+			<td>16</td>
+			<td>17</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>19</td>
+			<td>20</td>
+			<td>21</td>
+			<td>22</td>
+			<td>23</td>
+			<td>24</td>
+		</tr>
+		<tr>
+			<td>25</td>
+			<td>26</td>
+			<td>27</td>
+			<td>28</td>
+			<td>29</td>
+			<td>30</td>
+		</tr>
+		<tr>
+			<td>31</td>
+			<td>32</td>
+			<td>33</td>
+			<td>34</td>
+			<td>35</td>
+			<td>36</td>
+		</tr>
+	</table>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

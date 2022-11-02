@@ -1,0 +1,59 @@
+p{
+    display: none;
+    color: red;
+    font: 25px "Times New Roman", sans-serif;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+}
+
+form{
+    width: 600px;
+    background-color: #8791FF;
+    border-radius: 5%;
+
+}
+.result{
+    display: flex;
+    width: 600px;
+    background-color: #3F447D;
+    border-radius: 5%;
+    margin-left: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#forma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+span{
+    font: bold 30px "Times New Roman", sans-serif;
+}
+
+input{
+    margin-top: 10px;
+    font: 25px "Times New Roman", sans-serif;
+    width: 300px;
+}
+
+#submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font: 25px "Times New Roman", sans-serif;
+    width: 310px;
+}
+table{
+    text-align: center;
+    width: 50%;
+}
+
+td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
