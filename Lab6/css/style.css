@@ -1,0 +1,39 @@
+.container{
+    width: 1138px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #481E36;
+}
+
+#jsonData{
+    display: flex;
+    flex-direction: row;
+}
+#downloadJson{
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+
+#resultStatus{
+    display: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+div div p{
+    color: #FFFFFF;
+    margin: 15px 0;
+}
