@@ -1,0 +1,19 @@
+.info{
+  margin-right: 600px;
+  text-align: justify;
+}
+
+.store {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.city-image{
+  width: 900px;
+  height: 578px;
+}
+
+.item-image{
+  width: 324px;
+  height: 151px;
+}
